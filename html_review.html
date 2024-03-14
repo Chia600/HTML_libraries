@@ -176,8 +176,17 @@
     <video controls>
       <source src="source-vide" type="video/mp4">
       <source src="source-vide" type="video/webm">
-    </video>
+    </video> <br>
 
-    <audio src="source-vide">audio vide</audio>
+    <!-- insére un audio dans la page web exactement le même principe que la video -->
+    <audio src="source-vide" controls>audio vide</audio> <br>
+
+    <!-- insére un audio dans la page web en spécifiant plusieurs formats audio afin qu'il soit accepté par le plus de navigateur possible -->
+    <audio controls>
+      <source src="nom_fichier.mp3" type="audio/mp3">
+      <source src="nom_fichier.ogg" type="audio/ogg">
+    </audio>
+
+    
   </body>
 </html>
